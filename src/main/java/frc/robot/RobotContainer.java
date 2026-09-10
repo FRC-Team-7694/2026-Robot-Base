@@ -15,6 +15,7 @@ import frc.robot.commands.Autos;
 import frc.robot.Constants.OIConstants;
 import frc.robot.subsystems.DriveSubsystem;
 import frc.robot.subsystems.IntakeSubsystem;
+import frc.robot.subsystems.VisionSubsystem;
 import frc.robot.subsystems.ShooterSubsystem;
 
 
@@ -29,6 +30,7 @@ public class RobotContainer {
   private final DriveSubsystem m_robotDrive = new DriveSubsystem();
   private final IntakeSubsystem m_intake = new IntakeSubsystem();
   private final ShooterSubsystem m_shooter = new ShooterSubsystem();
+  private final VisionSubsystem m_vision = new VisionSubsystem();
 
   // The driver's controller
   private final CommandXboxController m_driverController =

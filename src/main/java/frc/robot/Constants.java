@@ -128,6 +128,14 @@ public final class Constants {
     public static final double kTriggerButtonThreshold = 0.2;
   }
 
+  public static final class VisionConstants {
+    // Proof-of-concept values; replace with measured mounting/target geometry before relying on distance.
+    public static final String kCameraName = "Arducam OV9281 USB Camera";
+    public static final double kCameraHeightMeters = 0.5;
+    public static final double kTargetHeightMeters = 1.435;
+    public static final double kCameraPitchRadians = Units.degreesToRadians(-30.0);
+  }
+
   public static final class AutoConstants {
     public static final double kMaxSpeedMetersPerSecond = 3;
     public static final double kMaxAccelerationMetersPerSecondSquared = 3;
