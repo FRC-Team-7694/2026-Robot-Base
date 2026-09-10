@@ -130,7 +130,7 @@ public final class Constants {
 
   public static final class VisionConstants {
     // Proof-of-concept values; replace with measured mounting/target geometry before relying on distance.
-    public static final String kCameraName = "Arducam OV9281 USB Camera";
+    public static final String kCameraName = "Arducam_OV9281_USB_Camera";
     public static final double kCameraHeightMeters = 0.5;
     public static final double kTargetHeightMeters = 1.435;
     public static final double kCameraPitchRadians = Units.degreesToRadians(-30.0);
